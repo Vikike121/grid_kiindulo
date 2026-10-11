@@ -1,0 +1,22 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cikk {
+    flex: 0 1 calc(32%);
+    min-width: 200px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.cikk:nth-child(3) {
+    order: -1;
+}
+
+/*nincs szükség media qeryre*/

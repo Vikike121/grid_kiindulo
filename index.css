@@ -6,7 +6,7 @@ article {
 }
 
 .cikk {
-    flex: 0 1 calc(30%);
+    flex: 0 1 calc(32%);
     min-width: 200px;
     display: flex;
     flex-direction: column;
