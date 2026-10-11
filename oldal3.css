@@ -1,0 +1,100 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+header {
+    flex: 0 0 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+nav {
+    order: 3;
+    flex: 0 1 100px;
+    align-self: stretch;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav li a {
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+
+article {
+    order: 2;
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cikk {
+    flex: 0 0 calc(50% - 5px);
+    min-width: 0;
+    max-width: calc(50% - 5px);
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+
+.kep {
+    order: -1;
+    width: 100%;
+}
+
+.kep img {
+    width: 100%;
+    height: auto;
+}
+
+.cikk h2 {
+    font-size: 20px;
+    margin: 20px 1 20px;
+}
+
+.cikk p {
+    font-size: 10px;
+}
+
+aside {
+    order: 1;
+    flex: 0 0 100px;
+    min-width: 0;
+    padding: 2px;
+    font-size: 10px;
+    overflow-wrap: break-word;
+}
+
+aside p {
+    margin: 5px 0 30px;
+}
+
+footer {
+    flex: 0 0 100%;
+}
