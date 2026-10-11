@@ -5,6 +5,7 @@
 }
 
 body {
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
     background-color: rgb(245, 236, 220);
@@ -22,6 +23,29 @@ main {
     max-width: 900px;
     margin:auto;
     background-color: #fff;
+}
+nav {
+    background-color: rgb(111, 99, 83);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+nav li {
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    padding: 10px;
+    background-color: bisque;
+    color: black;
 }
 p {
     padding:10pt 0 ;

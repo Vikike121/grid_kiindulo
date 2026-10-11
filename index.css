@@ -1,0 +1,33 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.cikk {
+    flex: 0 1 calc(30%);
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.cikk h2 {
+    margin-top: 0;
+    min-height: 25px;
+}
+
+.cikk:nth-child(3) {
+    order: -1;
+}
+
+.cikk p {
+    flex: 1;
+}
+
+.kep img {
+    width: 100%;
+    height: auto;
+}
